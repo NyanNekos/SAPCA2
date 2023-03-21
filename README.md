@@ -20,6 +20,7 @@ To run a MySQL Docker container with the name of db and a root password of my-se
 ```
 docker run --name db -e MYSQL_ROOT_PASSWORD=my-secret-password --network my-network -d mysql:latest
 ```
+This command runs a new Docker container based on the latest version of the MySQL Docker image, with the name 'db' and a root password of 'my-secret-password'. The container is connected to the 'my-network' Docker network.
 
 ## Running phpMyAdmin on the Docker network
 
@@ -28,6 +29,10 @@ To run phpMyAdmin on the Docker network, use the following command:
 ```
 docker run --name phpmyadmin -d --network my-network -p [your port]:80 phpmyadmin/phpmyadmin
 ```
+
+This command runs a new Docker container based on the phpMyAdmin Docker image, with the name 'phpmyadmin'. The container is connected to the 'my-network' Docker network and maps a port of your choice to port 80 of the container. Replace [your port] with the port you want to use to access phpMyAdmin in your browser.
+
+command references where taken for the docker official documentation where the code was tweaked a little to the question given on the CA  
 
 For more information on the mysql and phpmyadmin Docker images and their available option at the official documentation:
 
