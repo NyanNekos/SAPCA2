@@ -5,7 +5,7 @@
 
 ## Creating a Docker network
 
-To create a Docker network, use the following command:
+To create a Docker network use the following command:
 
 ```
 docker network create my-network
@@ -20,7 +20,7 @@ To run a MySQL Docker container with the name of db and a root password of my-se
 ```
 docker run --name db -e MYSQL_ROOT_PASSWORD=my-secret-password --network my-network -d mysql:latest
 ```
-This command runs a new Docker container based on the latest version of the MySQL Docker image, with the name 'db' and a root password of 'my-secret-password'. The container is connected to the 'my-network' Docker network.
+This command runs a new Docker container based on the latest version of the MySQL Docker image, with the name 'db' and a root password of 'my-secret-password'. The container is connected to the 'my-network' Docker network. mysql:latest is specifying the MySQL version you want which in this case is the latest. 
 
 ## Running phpMyAdmin on the Docker network
 
