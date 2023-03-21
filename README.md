@@ -36,5 +36,6 @@ command references where taken for the docker official documentation where the c
 
 For more information on the mysql and phpmyadmin Docker images and their available option at the official documentation:
 
+- Docker network create: https://docs.docker.com/engine/reference/commandline/network_create/
 - MySQL: https://hub.docker.com/_/mysql
 - phpMyAdmin: https://hub.docker.com/_/phpmyadmin" > README.md
