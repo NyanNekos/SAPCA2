@@ -39,4 +39,4 @@ For more information on the mysql and php myadmin Docker images and their availa
 
 - Docker network create: https://docs.docker.com/engine/reference/commandline/network_create/
 - MySQL: https://hub.docker.com/_/mysql
-- phpMyAdmin: https://hub.docker.com/_/phpmyadmin" > README.md
+- phpMyAdmin: https://hub.docker.com/_/phpmyadmin
