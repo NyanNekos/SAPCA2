@@ -35,7 +35,7 @@ This command runs a new Docker container based on the phpMyAdmin Docker image, w
 command references where taken for the docker official documentation where the code was tweaked a little to the question given on the CA  
 
 ## Documentation
-For more information on the mysql and phpmyadmin Docker images and their available option at the official documentation:
+For more information on the mysql and php myadmin Docker images and their available option at the official documentation:
 
 - Docker network create: https://docs.docker.com/engine/reference/commandline/network_create/
 - MySQL: https://hub.docker.com/_/mysql
