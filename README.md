@@ -1,5 +1,5 @@
 # My SAP CA2 Main
-# SAPCA2
+# SAPCA2 Joswel Bautista 
 
 # Setting up a MySQL and phpMyAdmin environment with Docker
 
