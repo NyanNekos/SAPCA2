@@ -44,10 +44,11 @@ For more information on the mysql and php myadmin Docker images and their availa
 ## Content of the Question to answer
 Check out your master or main branch of the repository created in part 3.
 Modify the  README.md file to include the following instructions in a code block you can use the following cheatsheet to assist you.
- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-•	provide a command that will create a docker network.
-•	Provide a command that will run a mysql:latest docker image with the name of db with a root password=my-secret-password.
-•	Provide a command that will run the docker image phpmyadmin/phpmyadmin on the network previously created mapping a port of your choice to port 80 of the container
-Reference 
-https://hub.docker.com/_/mysql  
-https://hub.docker.com/_/phpmyadmin 
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+-	provide a command that will create a docker network.
+- Provide a command that will run a mysql:latest docker image with the name of db with a root password=my-secret-password.
+- Provide a command that will run the docker image phpmyadmin/phpmyadmin on the network previously created mapping a port of your choice to port 80 of the container
+### Reference 
+- https://hub.docker.com/_/mysql  
+- https://hub.docker.com/_/phpmyadmin 
